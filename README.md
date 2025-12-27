@@ -1,221 +1,118 @@
-# Passport-Powell
-Portfolio 1 Assessment
+# 🌍 Passport Powell
 
+[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue)](https://passportpowell.github.io/Passport-Powell/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Languages](https://img.shields.io/github/languages/top/passportpowell/Passport-Powell)](https://github.com/passportpowell/Passport-Powell)
 
-Travel community site for meeting fellow travelers. Site is targeted mostly towards travelers coming into the UK while still being open to residents.
+> Travel community site for meeting fellow travelers. Site is targeted mostly towards travelers coming into the UK while still being open to residents. Live demo available via GitHub Pages.
+
+---
+
+## 🚀 Live Demo
+
+Play the live site:  
+**https://passportpowell.github.io/Passport-Powell/**
+
+---
+
+## 📌 Overview
+
+This project is a multi-page travel community website created as *Portfolio 1 Assessment*. Users can:
+
+✔ View the main page to learn about the site  
+✔ Navigate using a responsive navigation bar  
+✔ See past meetups in a gallery  
+✔ View weekly meetup schedules  
+✔ Sign up for the newsletter
+
+This demonstrates responsive front-end layout and user interaction using HTML and CSS. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 📸 Screenshots
 
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/amiresponsive_old.jpg)
+![Home Page](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
+![Gallery Page](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg)
+![Schedule Page](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/schedule.jpg)
+![Sign Up Page](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
+![Footer](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/footer.jpg)
 
-## User Stories
+---
 
-- Main page
-As a visiting user: I would like to see what the Website is about.
+## 🧠 Features
 
-- Sign up Page
-As a visiting user: I would like to signup for the newsletter.
+✔ Responsive navigation bar across all pages  
+✔ Multi-page layout  
+✔ Image gallery showcasing past events  
+✔ Weekly schedule page  
+✔ Sign up form with validation cues  
+✔ Social media footer links
 
-- Weekly Schedule Page
-As a visiting use: I would like to view the weekly schedule for meet ups. 
+---
 
-- Past events gallery page
-As a visiting user: I would like to view the past event gallery. 
+## ⚙️ Local Setup
 
-## Features
+To view this project locally:
 
-### Navigation Bar
-- On all pages and functional, Removing the need for users to click/press back button.
+```bash
+git clone https://github.com/passportpowell/Passport-Powell.git
+cd Passport-Powell
 
-- Nav menu links to 
-    - Home 
-    
-    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
-    - Past Events Gallery 
-    
-    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg) 
-    - Weekly Schedule 
-    
-    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/schedule.jpg)
-    - Sign up 
-    
-    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
-- Hovering over icons for text explanation of what it does if needed.
 
-### Footer
-- This Section has link to social media opening in different tabs.
-- Users can follow and subscribe to social networks.
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/footer.jpg)
+Then open the index.html file in your browser, or serve with a simple web server:
 
-## Main Page
+python3 -m http.server 8000
 
-### Landing Section
-- Circle container has a picture of a travel experience and is eye catching.
 
-### Why Join us Section
-- This section tells the user the benefits with the goal of encouraging them to join.
+Visit http://localhost:8000 in your browser.
 
+📋 How to Use
 
-## Gallery page
-- Masonary Gallery shows past events to intice users to join.
+Use the navigation bar to explore pages.
 
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery-amiresponsive.jpg)
+On the Weekly Schedule page, view times and locations for meetups.
 
+Use the Sign Up page to register for newsletters.
 
-## Weekly Schedule Page
-- This page shows users when events are happening, where and also what time.
-- This page will be updated as events change.
+Use the gallery to browse past event photos.
 
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/schedule-amiresponsive.jpg)
+📌 Known Issues
 
-## Sign up Page
-- Allows users to join to a newsletters
-- Nesletters gives information about events in and around Birmingham.
-- Users can choose to only receive email about weekly schedules, events around birmingham or both.
-- Form requires Name and Email adress.
+Sign up form does not persist data yet.
 
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/signup-amiresponsive.jpg)
+Some images lack descriptive alt text for accessibility.
 
+Mobile navigation menu could be improved.
 
-## Future Features
+💡 Future Improvements
 
-- Create own meet up events
-- Toggle Dark Mode
+Allow users to create their own meetup events.
 
+Add a dark mode toggle.
 
-## Typography
+Add JavaScript enhancements to the sign up form.
 
-- Font size used was Roboto-Slab
-- Colors used 
+Improve mobile UI/UX.
 
-## Technology
+🧪 Testing
 
-### Technologies used were as follows:
+Tested on major browsers:
 
+✔ Microsoft Edge
+✔ Google Chrome
+✔ Brave Browser
 
-HTML5 - Used for creating layout.
+Manual tests include navigation links, form validation, and layout checks at various screen sizes. 
+GitHub
 
-CSS -  Used for styling HTML.
+📚 Credits
 
-github - Used for hosting repository for easy sharing.
+Images and content sourced by Passport Powell.
+Gallery photos from personal travel archives; schedule background from VisitBritain.
+CSS and layout techniques learned from MDN, W3Schools, and the Code Institute course. 
+GitHub
 
-gitpod -  Used for writing the HTML and CSS and README.
+📄 License
 
-HOVER:CSS - Used for hover styling.
-
-GOOGLE FONTS - for use of roboto-slab
-
-FONT awesome - used for icons
-
-## Testing
-
-Site tested on different browser: Microsoft Edge, Brave Browser and Chrome.
-tested that all text is readable
-
- ### Sign up page
-  - Click sign up symbol on the nav bar with the expected result to be redirected 
-  to a sign up form. 
-  - Click on First name box: User should notice error until field is entered correctly. Last name, Email address and types of emails to be received.
-  - Click on Last name box: User should notice error until field is entered correctly.
-  - Click on Email box: User should notice error until characters are entered into the field.
-    - Enter invalid email address will expected result in an error.
-    - Enter valid email entered with expected result to be information accepted.
-  - user wil be redirected to Congratulations page and can use NAV menu or "let's go home" to return to the homepage.
-
-  ### Gallery page
-  - Click gallery symbol with the expected result to be shown a gallery page full of images.
-
-  ### Weekly Schedule
-  - click on scehdule symbol with the expectation of being redirected to schedule page, with the content showing the weekly schedule.
-  - click on location with the expectation of being redirected to google maps in a new tab.
-
-  ### Title
-  - click on the title with the expected result to be redirected to the home page.
-
-### Screen size
-- all test above reaped on sizes ranging from tablets and mobile
-
-
-### CSS Validation
- - Tested using the official W3C validator
- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
- ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/css-validator.jpg)
-
-
-### HTML Validation
- - Tested using the official (Jigsaw) validator
- https://validator.w3.org/nu/?doc=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F
-
- ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/html-validator.jpg)
-
-
-### lighthouse validator
-- Main Page
-
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-home.jpg)
-
-
-- Gallery
-
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-gallery.jpg)
-
-
-- Schedule
-
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-schedule.jpg)
-
-- Sign Up Page
-
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-signup.jpg)
-
-
- ## Bugs along the way
-
- - 3 radio button were allowing all to be checked. Solution was they needed the same name value.
- background image on sign up page was blurry. solution was to find a higher quality image.
-
- - When resizing the screen to mobile the Nav menu would dissapear. Solution was the class wasn't identified correctly in @media screen
-
- - Sign up form just reloads page. error was caused by the using #contragtulations.html. solution was to remove the #.
-
-
-## Deployment
-
-Deployment was achieved via GitHub and gitpod pages using the following steps
-
-## Github
- - In the GitHub repository go to the Settings tab,
-
- - using the source section drop-down menu, select the Master/ or Main Branch,
-
- - Once completed a link will be provided that may take a few minutes to go live,
-
- - live link https://passportpowell.github.io/Passport-Powell/ .
-
-## gitpod
- in the terminal type python3 -m http.server
- a pop up appears which upon clicking "open in browserW will show a new tab with the site created.
-
-## Credits
-
-### Images
-
-- Image gallery sources from my own photos. 
-
-- Circle container image sources from my own picture.
-schedule page's weekly background Picture was sourced from https://www.visitbritain.com/gb/en/business/england/birmingham
-
-
-### Content
-
-- Text box width change upon clicked code was sourced from 
-https://www.w3schools.com/cssref/sel_attribute_value.asp .
-
-- Code for Social media link was used from full stack developer course code.
-
-- Code for hovering over Nav Menu Items sourced from https://sebhastian.com/html-hover-text/ .
-
-- Code for HR styling (double line) sourced from https://codepen.io/zackw/pen/NqWgPq .
-
-- Code for course has been learned from Full stack development course via Code insitute.
-
-- Help was asked using the slack group as radios section allowed all 3 button to be active. solution was found thanks to jeffrey bull.
+This project is released under the MIT License. Feel free to use, modify, or share it.
